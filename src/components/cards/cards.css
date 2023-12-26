@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.actor-cars-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #000;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+
+}
+
+
+    .card {
+        width: 30%;
+        height: 600px;
+        background-size: cover;
+        background-position: 50% 50%;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: 1s;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 0 0 20px 10px;
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+     
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.banner-1 {
+
+    background-image: url('https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/media/image/2021/04/superman-henry-cavill-2292683.jpg?tf=3840x')
+}
+
+.banner-2 {
+
+    background-image: url('https://i.pinimg.com/1200x/32/63/76/3263769c9990ac45ba6592e374d6c9a6.jpg')
+}
+
+.banner-3 {
+
+    background-image: url('https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/05/31/GeneralZod.jpeg')
+}
